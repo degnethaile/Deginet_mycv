@@ -1,0 +1,42 @@
+body{
+    background-color: skyblue;
+    border: solid 10px lightgray;
+    position: relative;
+    top: 0;
+    margin: 10px auto;
+
+}
+header{
+    background-color: steelblue;
+}
+section{
+    border: solid 1px;
+    padding: 5px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+article , .date{
+    font-size: 15px;
+    
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.date{
+    font-style: italic;
+
+}
+/* changing the nature block */
+nav>ul>li{
+    display:inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color: #ffffff;
+}
