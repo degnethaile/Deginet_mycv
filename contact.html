@@ -7,151 +7,190 @@
     <link rel="icon" sizes="114*114" href="pictures/D.png ">
     <style>
         body{
-            background-image: url(https://www.picsartphotoediting.com/wp-content/uploads/2019/03/Indian-Girl-PNG-Download-Image-830x1024.png);
-            background-repeat: no-repeat;
+            background-color: aqua
         }
+        ul{
+            
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: cyan;
+            position: fixed;
+            display: inline;
+        }
+        li{
+            float: right;
+            padding: 18px;
+            display: inline;
+        }
+        li a{
+           
+            display: block;
+            text-align: center;
+        }
+        a:link{
+            text-decoration: none;
+        
+        }
+        a:visited{
+            background-color: black;
+        }
+
+        a:hover{
+            background-color: white;
+        }
+        a:active{
+            background-color: white;
+        }
+        label{
+            display: block;
+            
+        }
+        textarea{
+            display: block;
+        }
+        #sum{
+            display: inline;
+        }
+     div{
+         display: block;
+         text-align: center;
+         position: relative;
+         bottom: 0;
+     }
+     .s{
+         display: inline;
+         padding: 8px;
+     }
+     #j{
+         display: block;
+     }
+     .co{
+         border-radius: 100%;
+     }
+     #call{
+         border-radius: 100px;
+     }
+    
+     
+ #nav{
+     display: inline;
+ }
+ #section{
+     display: inline;
+     float: right;
+     text-align: justify;
+     padding-top: 100px;
+     padding-right: 70px;
+ }
+ #degu{
+     padding-top: 80px;
+     border-radius: 50%;
+     width: 400;
+     height: 400;
+ }
+ p{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 150%;
+     font-weight: normal;
+ }
+
     </style>
 
 </head>
 <body>
-        <table  cellspacing="10" align="right">
-            <tr>
-                <td>
-                    <a href="index.html"><h1 >Home </h1></a>
-                </td>
-                <td>
-                    <a href="contact.html" target="_blank"><h1>Contact</h1></a>
-                </td>
-                <td>
-                    <a href="gallery.html" target="_blank"><h1>Gallery</h1></a>
-                </td>      
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td>
-                    <img src="pictures/D.png" alt="D" width="100" height="100"> 
-                </td>
-            </tr>
-        </table>
-        <table align="right">
-            <tr>
-                <td>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.2185234789717!2d38.7590092144585!3d9.043821091247587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f68908aad97%3A0x6c67d2e35cbb4d62!2s6%20Kilo!5e0!3m2!1sen!2set!4v1583593826762!5m2!1sen!2set" width="1000" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             
-            </td>
-            </tr>
-        </table>
-        <form action="https://www.w3schools.com/">
-        <table>
-            <tr>
-                <td>
-                    <tr>
-                        <td>
-                            <label for="Fname">First Name</label>
-                        </td>
-                        <td>  <input type="text" pattern="[A-Za-z]{6,12}">
-                        <td>
-                            <td>
-                            
-                            </td>
-                    </tr>
-               
-                    <tr>
-                        <td>
-                            <label for="LName">Last  Name</label>
-                        </td>
-                        <td><input type="text"pattern="[A-Za-z]{6,12}"></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="email">Email</label>
-                        </td>
-                        <td>
-                            <input type="email" name="email" id="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="Passw">Password</label>
-                        </td>
-                        <td>
-                            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="textarea">what do you want to say</label>
-                        </td>
-                        <td>
-                            <textarea name="textarea" id="" cols="22" rows="5"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit">  <input type="reset">
-                        </td>
-                    
-                           
-                        
-                    </tr>
-                </td>
-               
-            </tr>
-        
+         <ul>
+            <li>
+                <a href="mywork.html" target="_blank">My Work</a>
+            </li>
+            <li>
+                <a href="gallery.html" target="_blank">Blog</a>
+             </li>
             
+            
+             <li>
+                <a href="gallery.html" target="_blank">Gallery</a>
+             </li>
+             <li>
+                <a href="contact.html" target="_blank">Contact</a>
+             </li>
+            
+             <li>
+                <a href="index.html">Home</a>
+             </li>
+             
+         </ul> 
+         <nav id="nav">
+            <img src="pictures/image.jpg" alt="degu"  id="degu" width="400" height="400"> 
+            <section id="section">
+                
+                <p>
+                    <h2>
+                        Deginet Haile
+                    </h2>
+                  
+                </p>
+                <p>
+                    Student at Addis Ababa Institute Technology  
 
-        </table>
+                </p>
+                <p>
+                    my name is Deginet Haile I am expert <strong>Java</strong> developer
+                </p>
+                <p>
+                    .I have been working on java since 2012
+                </p>
+                <p>
+                    I am passionate  about learning new programming language and working on them.
+                </p>
+                <p>
+                    I am good enough in familiarizing new frame works
+                </p>
+            </section>
+               
+         </nav>
+        
+             
+           
+                     
+<form action="https://www.w3schools.com/">
+<label for="Fname">First Name</label>
+                       
+ <input type="text" pattern="[A-Za-z]{6,12}">
+ <label for="LName">Last  Name</label>
+<input type="text"pattern="[A-Za-z]{6,12}"></td>
+<label for="email">Email</label>
+ <input type="email" name="email" id="">
+<label for="Passw">Password</label>
+<input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+<label for="textarea">what do you want to say</label>            
+ <textarea name="textarea" id="" cols="22" rows="5"></textarea>                
+ <input type="submit" id="sum" >  <input type="reset">               
     </form>
     
-    
-    <table align="center">
-        <tr>
-            <td>
-                <img src="pictures/D.png" alt="D" width="50" height="50">
-            </td>
-        </tr>
-    </table>
-
-    <table align="center">
-        <tr>
-            <td>
-                <h2>
-                    Contact Me
-                </h2>
-            </td>
-        </tr>
-    </table>
-    <table align="center" cellspacing="20">
-        
-        <tr>
-            
-              <td>
-                  <a href="https://www.facebook.com/deginet.haile.5?ref=br_tf&epa=SEARCH_BOX"> <img src="pictures/facebook.jpg" alt="facebook" width="40" height="40"></a>
-      
-              </td>
-              <td>
-                  <a href="http://www.twitter.com"><img src="pictures/twitter.png" alt="twitter" width="40" height="40"></a>
-      
-              </td>
-              <td>
-                  <a href="https://mail.google.com/mail/u/0/#inbox"><img src="pictures/gmail.png" alt="gmail" width="30" height="30"></a>
-      
-              </td>
-              <td>
-                  <a href="#"><img src="pictures/call.png" alt="call" width="20" height="20"></a> <strong>+251930005413</strong>
-              </td>
-              
-                 
-              
-        </tr>
-    </table>
-    <table align="center">
-        <tr>
-            <td>
-               <big> <strong>copyright </strong></big>  <img src="pictures/copyright.png" alt="copy" width="30" height="30"> <big>  2020 All rights reserved</big> <img src="pictures/cross.jpg" alt="cross" width="30" height="30"> <big>This template is made by Deginet</big> 
-            </td>
-        </tr>
-    </table>
+    <div>
+        <img src="pictures/D.png" alt="D" width="50" height="50">
+          
+        <h2> 
+           Contact Me
+      </h2>
+           
+                       <a href="https://www.facebook.com/deginet.haile.5?ref=br_tf&epa=SEARCH_BOX" class="s"> <img src="pictures/facebook.png" alt="facebook" width="30" height="30"></a>
+                  
+                       <a href="http://www.twitter.com" class="s"><img src="pictures/twitter.png" alt="twitter" width="30" height="30"></a>
+           
+                   
+                       <a href="https://mail.google.com/mail/u/0/#inbox" class="s"><img src="pictures/gmail.png" alt="gmail" width="30" height="30"></a>
+           
+                  
+                       <a href="#" class="s" ><img src="pictures/call.png" alt="call" width="30" height="30" id="call"></a> +251930005413
+                    <nav>
+                        copyright <img src="pictures/copyright.png" alt="copy" width="30" height="30" class="co"
+                        >   2020 All rights reserved
+                         <img src="pictures/cross.jpg" alt="cross" width="30" height="30" class="co"> This template is made by Deginet
+                    </nav>
+    </div>
+     
 </body>
 </html>
