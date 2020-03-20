@@ -94,7 +94,20 @@
      font-size: 150%;
      font-weight: normal;
  }
-
+#q4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 200%;
+}
+#qu4{
+    border:  2px solid yellowgreen;
+    margin: 5px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 200%;
+    line-height: 150%;
+}
     </style>
 
 </head>
@@ -150,5 +163,51 @@
             </section>
                
          </nav>
+         <div id="qu4">
+             <h2 id="q4">Question 4</h2>
+             Let me tell you about css units first to remind you and then I will tell you my own argument. There are two types of css units: relative and absolute units. Relative units are related to the viewport or font size of an element whereas absolute units are always constant or the same regardless of viewport or font size.
+One of the absolute units is px which is common for bordering. If I set one value of px for elements, every element will have the same value. For instance, let me say my laptop size is 1200 * 700 pixels, which mean that 1200px value of element will fit the width of laptop screen. If I use 1300px of element, it can’t fit with the screen
+, so it is necessary to scroll horizontally. You may not satisfy the visitor’s screen. This is what the limitation of using px. Therefore relative units are necessary.
+Some of relative units are em and rem which are common for margin/padding and font size respectively. Em is relative to font size of the element whereas rem is relative to the default font size instead of the current element’s font size, the default font size of the browser is usually 16px. It is common to use relative size em and rem over pixel because they would make our design more accessible.
+In my view, it is better to use relative size to styling the size of an element. Even if the browser is providing zoom feature, using relative size is better. The user should not be bother about how to get the zoom feature of browser, how to use and adjust font display setting. Not only that but also the UI that is appeared using relative size is better than using zoom feature of the browser. If we set a higher default font size, it is not necessary to zoom in browser to able to read the website because relative units would increase to what font size we want. Therefore, I conclude that using relative size for size styling is responsive and we have to use it.
+         </div>
+         <div id="qu4">
+             <h2 id="q4">
+                 Question 5
+             </h2>
+             In almost every browser, 16px is the standard for proportional fonts, but there are some browsers like opera mini 7 and AOL 9 have another default font size. Users can change the default value to anywhere from 9px to 72px. Anyway let me focus on 16px browser and define what does mean 200px and also how the browser interpret.
+When the default font size is 16px, which is equivalent to 1rem or 1em, so we can understand what 200px is.
+               16px = 1rem
+               200px = x?
+                X = 12.5rem
+Therefore, when we use 200px, we mean make the font size or something of the element 12.5rem or 12.5em.
+Now let us see how the browser interpret it. The browser creates DOM Tree (Document Object Model) and each node of the tree represents html tag. After the browser created DOM Tree, it creates map of the css style found in the web pages, which is called CSS Object Model (CSSOM). Render tree is formed by combining DOM and CSSOM trees, that is ready to be rendered.
+The browser traverses each node of DOM tree starting from the root and select nodes which will be omitted/visible. For each visible node, appropriate CSSOM rules will be matched. After the browser finds which rules apply to which element, it comes to the calculation that we have seen above and then display the result effect on the screen.
+         </div>
+         <div id="qu4">
+             <h2 id="q4">
+                 Question 6
+             </h2>
+             Let us see some specific changes in CSS3.
+Text Shadow
+Text shadow property allows to add drop shadows to the text on a webpage. This is done by image or duplicating text element and then positioning it properly.
+Box Shadow
+It allows to create a drop shadow for an element. Most of the time this effect is done by using repeated image around the element, but because of box shadow that is done with a single line of code.
+Border Image
+It is the ability to swap out a border with an image. It allows to specify an image to display instead of a plain solid colored border.
+Rounded Corners
+Before css3 a lot of code was required to create a rounded corner. Give attention on height, width and positioning is very boring. CSS3 introduces border radius property which gives the same rounded corner effect.
+Selectors
+CSS3 introduce some new selectors. By using these selectors it is possible to choose DOM elements based on their attributes, so it might not necessary to specify classes and IDs for every element. Instead of that utilizing the attribute field to style them.
+Web Fonts
+CSS3 introduces embedding any custom font on a webpage. Web pages render only fonts that are supported by the browser or client machine.
+Multicolumn Layout
+Most of webpages are made by columns or boxes and these boxes are adjusted by designers. Multicolumn layout simplify this problem and allow to specify only the number of columns and then they will be formed.
+
+Transform
+It enables to rotate web elements on a webpage
+
+RGBA color with
+         </div>
 </body>
 </html>
